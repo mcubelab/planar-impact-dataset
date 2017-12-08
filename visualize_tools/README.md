@@ -1,6 +1,6 @@
 
 # How to use the visualization tools:
-** main.m **: Run this script to visualize the first two drops. To visualize more data please edit main:
+**main.m**: Run this script to visualize the first two drops. To visualize more data please edit main:
 ```
 visList = 1:2
 ```
