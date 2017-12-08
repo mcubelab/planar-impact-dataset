@@ -12,7 +12,7 @@ n: the normal component of the Jacobian of the point of contact
 d: the tangent component of the Jacobian of the point of contact
 
 
-* **gpFeature2** and **gpFeature5**: Predicted impulses from the data-driven contact models with 2 and 5 features respectively, ordered as normal and tangential components.
+* **gpFeature2** and **gpFeature5**: Features computed for each impact for the data-driven contact models with 2 and 5 features respectively.
 
 * **p_models**: The impulses predicted by models in order:
 
