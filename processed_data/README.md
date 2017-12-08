@@ -2,31 +2,25 @@
 ## Guide to dataset
 
 * **data_ellipse**: Data structure containing the following:
+```
+data.states_i % pre contact configuration and velocity of the object (x,y,theta,dx,dy,dtheta) in meters and radians.
 
-data.states_i : pre contact configuration and velocity of the object (x,y,theta,dx,dy,dtheta) in meters and radians.
+data.states_f % post contact configuration and velocity of the object (x,y,theta,dx,dy,dtheta) in meters and radians.
 
-data.states_f : post contact configuration and velocity of the object (x,y,theta,dx,dy,dtheta) in meters and radians.
+data.n        % the normal component of the Jacobian of the point of contact
 
-n: the normal component of the Jacobian of the point of contact
-
-d: the tangent component of the Jacobian of the point of contact
-
+data.d        % the tangent component of the Jacobian of the point of contact
+```
 
 * **gpFeature2** and **gpFeature5**: Features computed for each impact for the data-driven contact models with 2 and 5 features respectively.
 
 * **p_models**: The impulses predicted by models in order:
-
-Drumwright-Shell
-
-AP Poisson
-
-AP Newton
-
-Mirtich
-
-Wang-Mason
-
-Whittaker
+  - Drumwright-Shell
+  - AP Poisson
+  - AP Newton
+  - Mirtich
+  - Wang-Mason
+  - Whittaker
 
 
 * **p_true_data**: The linear impulse that best explains each interaction.
